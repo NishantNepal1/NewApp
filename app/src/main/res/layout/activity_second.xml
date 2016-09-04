@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:background="@drawable/circle"
+
+
+        android:layout_height="wrap_content"
+        android:text="k"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chat App"
+        android:gravity="center"
+        android:textColor="@color/blue"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="true"
+        android:textSize="15dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fb"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:text="Facebook"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/twit"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:text="Twitter"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:gravity="center" />
+        </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:layout_gravity="center"
+        android:layout_margin="1dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:background="@drawable/rect"
+        android:layout_margin="5dp"
+        android:gravity="center"/>
+
+
+
+    <EditText
+        android:id="@+id/etUserPassword"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PassWord"
+        android:background="@drawable/rect"
+        android:layout_margin="5dp"
+        android:gravity="center"/>
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="16dp"
+        android:typeface="monospace"
+        android:textColor="@color/white"
+        android:text="Submit"
+        android:clickable="true"
+        android:layout_gravity="center"/>
+
+
+````<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_gravity="center"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/passwordForgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="I've forgotten my password?"
+        android:layout_margin="0dp"
+        android:clickable="true"
+        android:textSize="10dp"/>
+
+
+</LinearLayout>
